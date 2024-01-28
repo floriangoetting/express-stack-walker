@@ -1,0 +1,27 @@
+{
+  "name": "express-stack-walker-os",
+  "version": "1.0.0",
+  "description": "Server Side Tracking Endpoint based on Express to validate, enrich and redact incoming data to prepare for sending it to other destinations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleisti/express-stack-walker-os.git"
+  },
+  "author": "Florian Götting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kleisti/express-stack-walker-os/issues"
+  },
+  "homepage": "https://github.com/kleisti/express-stack-walker-os#readme",
+  "dependencies": {
+    "@elbwalker/client-node": "^1.0.0",
+    "@elbwalker/utils": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
